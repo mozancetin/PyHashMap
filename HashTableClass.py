@@ -33,7 +33,8 @@ class HashTable:
             if element[0] == key:
                 del self.arr[h][index]
             
-
+# Test
+"""
 test = HashTable()
 
 test["test 1"] = 130
@@ -59,9 +60,13 @@ print(test["test 81"])
 print(test["test 92"])
 print(test["march 6"])
 print(test["march 17"])
-print('--------------------------------------------------------------------------------')
-print(test.arr)
-del test["march 17"]
+
 print('--------------------------------------------------------------------------------')
 
 print(test.arr)
+
+print('--------------------------------------------------------------------------------')
+
+del test["march 17"]
+print(test.arr)
+"""
